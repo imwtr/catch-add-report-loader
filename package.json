@@ -1,0 +1,35 @@
+{
+  "name": "catch-add-report-loader",
+  "version": "1.0.2",
+  "description": "Automatically add exception report(like sentry) in try-catch block",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/parser": "^7.8.3",
+    "@babel/types": "^7.8.3",
+    "@babel/traverse": "^7.8.3",
+    "loader-utils": "^1.2.0",
+    "acorn": "^7.1.1",
+    "recast": "^0.18.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imwtr/catch-add-report-loader.git"
+  },
+  "keywords": [
+    "try-catch",
+    "error-report",
+    "loader",
+    "sentry",
+    "js"
+  ],
+  "author": "imwtr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imwtr/catch-add-report-loader/issues"
+  },
+  "homepage": "https://github.com/imwtr/catch-add-report-loader#readme"
+}
